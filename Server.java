@@ -62,7 +62,7 @@ public class Server {
 						}
 					
 	              
-	               //ArrayList<String> board = new ArrayList<String>();
+	              
 	               System.out.println("board received from client is "+board);
 	               
 	               
@@ -90,19 +90,7 @@ public class Server {
 	               bw.flush();
 	               System.out.println("board sent to the client : "+sentBoard);
 	               
-	              /* printBoard();
-	    		   playerGoesFirst();
-	    		   makeMove(board, letter, move);
-	    		   hasWon(board, letter);
-	    		   getBoardCopy(board);
-	    		   isSpaceFree(board, move);
-	    		   getPlayerMove(board, movesList);
-	    		   isBoardFull(board);
-	    		   prettify(board);
-	    		   uglify(board);
-	    		   chooseRandomMoveFromList(board, movesList);
-	    		   getComputerMove(board, computerLetter);
-	    		   playAgain();*/
+	              
 	           }
            }
            
@@ -263,19 +251,11 @@ public class Server {
 			   if(hasWon(copy, playerLetter))
 				   return i;
 		   }
-		  // return chooseRandomMoveFromList(board, movesList);
+		  
 	   }
 	   
 	   return chooseRandomMoveFromList(board, movesList);
-	   /*int[] cornerMoves = {1, 3, 7, 9};
-	   int move = chooseRandomMoveFromList(board, cornerMoves);
-	   if(move != 0)       //make sure
-		   return move;
-	   if(isSpaceFree(board, 5))
-		   return 5;
-	   else {
-		  int[]  sideMoves = {2, 4, 6, 8};
-		  return chooseRandomMoveFromList(board, sideMoves);*/
+	  
 		  }
 	   }
    
