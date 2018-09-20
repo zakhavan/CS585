@@ -1,4 +1,3 @@
-//change for github
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
@@ -64,14 +63,13 @@ public class Client {
 			}
 			sentBoard += System.lineSeparator();
 			bw.write(sentBoard);
-			// bw.
+			
 			bw.flush();
 			
 			
 			System.out.println("initial board sent to the server : " + sentBoard);
 
-			// ArrayList<String> board1 = (ArrayList<String>) board.subList(0, move);
-			// ArrayList<String> board1 = new ArrayList<String>(board.subList(0, move));
+			
 
 			System.out.println("board is: " + board + "the board length is: " + board.size());
 
@@ -137,19 +135,7 @@ public class Client {
 				
 				
 				System.out.println("board sent to the server : " + sentBoard);
-				/*printBoard();
-				playerGoesFirst();
-				makeMove(board, letter, move);
-				hasWon(board, letter);
-				getBoardCopy(board);
-				isSpaceFree(board, move);
-				getPlayerMove(board, movesList);
-				isBoardFull(board);
-				prettify(board);
-				uglify(board);
-				chooseRandomMoveFromList(board, movesList);
-				getComputerMove(board, computerLetter);
-				playAgain();*/
+				
 
 			}
 		}
@@ -162,7 +148,7 @@ public class Client {
 			}
 		}
 
-		// killServer(host, port);////where should I call this function?
+		
 
 	}
 
@@ -307,15 +293,7 @@ public class Client {
 
 
 		 return chooseRandomMoveFromList(board, movesList);
-		/*int[] cornerMoves = { 1, 3, 7, 9 };
-		int move = chooseRandomMoveFromList(board, cornerMoves);
-		if (move != 0) // make sure
-			return move;
-		if (isSpaceFree(board, 5))
-			return 5;
-		else {
-			int[] sideMoves = { 2, 4, 6, 8 };
-			return chooseRandomMoveFromList(board, sideMoves);*/
+		
 		}
 
 	}
