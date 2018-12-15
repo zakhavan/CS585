@@ -8,19 +8,19 @@
 
 X--|---|---\n
 
-XO­|­­­|­­­\n
+XO-|---|---\n
 
-XO­|X­­|­­­\n
+XO-|X--|---\n
 
-XO­|X­­|O­­\n
+XO-|X--|O--\n
 
-XOX|X­­|O­­\n
+XOX|X--|O--\n
 
-XOX|X­O|O­­\n
+XOX|X-O|O--\n
 
-XOX|X­O|OX­\n
+XOX|X-O|OX-\n
 
-XOX|XOO|OX­\n
+XOX|XOO|OX-\n
 
 XOX|XOO|OXX\n
 
