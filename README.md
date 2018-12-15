@@ -1,1 +1,1 @@
-Project for CS585
+ #client and a server to play tic-tac-toe
