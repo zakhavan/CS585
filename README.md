@@ -6,6 +6,8 @@
  
  
  You run Client.java and Server.java and will get an output in the following format:
+ 
+ 
  ---snip---
 
 X--|---|---\n
